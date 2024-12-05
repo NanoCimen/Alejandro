@@ -30,15 +30,15 @@
             const periodicosDiv = document.getElementById('periodicos');
             const imageDiv = document.getElementById('imagen-periodico');
             const llamarperiodico = periodicos[periodicoactual];
-
-            // Ensenar periodico (De forma pura/crudo)
+            
             periodicosDiv.textContent = llamarperiodico.name;
 
-            // Ensenar imagen (De forma pura/crudo)
+     // Estilo de la imagen
             const foto_periodico = document.createElement('img');
             foto_periodico.src = llamarperiodico.image;
-            foto_periodico.style.display = "block"; // Para hacer q la imagen se vea
-            imageDiv.innerHTML = '';// Para remover la imagen anterior antes de colocar la nueva
+            foto_periodico.style.display = "block";
+            foto_periodico.classList.add('imagen-periodico');
+
             imageDiv.appendChild(foto_periodico);
         }
 
