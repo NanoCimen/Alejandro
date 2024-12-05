@@ -1,0 +1,69 @@
+/* Estilo de body*/
+body {
+    background: linear-gradient(135deg, #f5040c, blue);
+    font-family: 'Times New Roman', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo del header */
+h1 {
+    font-size: 2.5em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+/* Estilo del newspaper */
+.periodicos {
+    background-color: white;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.8em;
+    margin: 20px 0;
+    color: black;
+    animation: bounce 1s infinite alternate;
+}
+
+/* botones */
+button {
+    background: linear-gradient(45deg, #6c5ce7, #74b9ff);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(60deg, red, blue);
+    transform: scale(1.1);
+}
+
+/* Newspaper image */
+.imagen-periodico {
+    margin: 20px auto;
+    display: block;
+    max-width: 300px;
+    border: 4px solid black;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+/* Footer message for completed classification */
+#periodicos.completed {
+    background-color: #55efc4;
+    color: #2d3436;
+    animation: none;
+}
+
+
