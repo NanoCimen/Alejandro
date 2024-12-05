@@ -16,7 +16,7 @@ h1 {
     margin: 20px 0;
 }
 
-/* Estilo del newspaper */
+/* Estilo del periodico */
 .periodicos {
     background-color: white;
     padding: 15px 20px;
@@ -48,7 +48,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Newspaper image */
+/* Imagen periodico */
 .imagen-periodico {
     margin: 20px auto;
     display: block;
@@ -59,11 +59,6 @@ button:hover {
     transition: transform 0.3s;
 }
 
-/* Footer message for completed classification */
-#periodicos.completed {
-    background-color: #55efc4;
-    color: #2d3436;
-    animation: none;
-}
+
 
 
